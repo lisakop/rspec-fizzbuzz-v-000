@@ -1,11 +1,11 @@
 def fizzbuzz(fizz_int)
-   if ((fizz_int / 3) && (fizz_int / 5)) == Integer
+   if ((fizz_int % 3) && (fizz_int % 5)) = 0
     puts "FizzBuzz"
-   elsif fizz_int / 3 == Integer
+  elsif fizz_int % 3 = 0
      puts "Fizz"
-  elsif fizz_int / 5 == Integer
+  elsif fizz_int % 5 = 0
      puts "Buzz"
-  else(fizz_int / 3 || fizz_int / 5) == !Integer
+  else(fizz_int % 3 || fizz_int % 5) == !0
      puts nil
    end
 end
