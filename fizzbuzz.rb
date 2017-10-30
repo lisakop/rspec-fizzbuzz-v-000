@@ -5,6 +5,6 @@ def fizzbuzz(fizz_int)
      returns "Fizz"
   elsif fizz_int % 5 == 0
      returns "Buzz"
-  else returns nil
+  else fizz_int returns nil
    end
 end
