@@ -1,10 +1,11 @@
 def fizzbuzz(fizz_int)
    if (fizz_int % 3 == 0 && fizz_int % 5 == 0)
-    returns "FizzBuzz"
+    return "FizzBuzz"
   elsif fizz_int % 3 == 0
-     returns "Fizz"
+     return "Fizz"
   elsif fizz_int % 5 == 0
-     returns "Buzz"
-  else fizz_int returns nil
+     return "Buzz"
+  else fizz_int 
+    return nil
    end
 end
