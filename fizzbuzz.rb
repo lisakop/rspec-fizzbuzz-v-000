@@ -1,4 +1,4 @@
-def fizzbuzz(fizz_int.to_i)
+def fizzbuzz(fizz_int)
    fizz_int = rand 25
    if ((fizz_int / 3) && (fizz_int / 5)) == Integer
     puts "FizzBuzz"
