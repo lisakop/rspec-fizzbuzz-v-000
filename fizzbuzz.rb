@@ -1,5 +1,5 @@
 def fizzbuzz(fizz_int)
-   fizz_int = Integer
+   fizz_int = Integer.to_i
    if ((fizz_int / 3) && (fizz_int / 5)) == Integer
     puts "FizzBuzz"
    elsif fizz_int / 3 == Integer
