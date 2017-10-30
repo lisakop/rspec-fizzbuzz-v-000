@@ -9,3 +9,5 @@ def fizzbuzz(fizz_int)
       puts nil
     end
 end
+
+fizzbuzz
